@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+// Variables
+
+$corporate: #E84100;
+$background: #EAE8E8;
+$heading-color: #888;
+
+$primary-fonts: freight-text-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif;
+$secondary-fonts: freight-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif;
+
+$small-text: 0.85em;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+    "sass/base",
+    "sass/entry",
+    // "sass/comments",
+    // "sass/search",
+    "sass/branding",
+    "sass/nav",
+    "sass/widget",
+    "sass/pagination"
+;

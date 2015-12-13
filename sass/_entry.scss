@@ -1,0 +1,66 @@
+.wp-post-image {
+    margin-top: -20px;
+}
+
+.inside-article,
+.separate-containers .inside-article,
+.separate-containers .page-header {
+
+    @media (max-width: 768px) {
+        padding: 40px 20px;
+    }
+
+}
+
+.entry-content {
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.entry-content p,
+.entry-content ul,
+.entry-content ol {
+    margin-bottom: 0.75em;
+}
+
+.hentry a:hover,
+.hentry a:active,
+.hentry a:focus {
+    text-decoration: underline;
+    color: $corporate;
+}
+
+.entry-content blockquote {
+    font-size: $small-text;
+    font-style: normal;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-content dt {
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0.75em 0 0.375em 0;
+}
+
+.entry-content h3 {
+    font-size: 24px;
+}
+
+.wp-caption .wp-caption-text {
+    font-size: $small-text;
+    font-family: $secondary-fonts;
+}
+
+.entry-meta {
+    font-family: $secondary-fonts;
+}
+
+.cat-links a,
+.comments-link a {
+    padding-left: 6px;
+}

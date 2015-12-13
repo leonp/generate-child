@@ -1,0 +1,31 @@
+body {
+    font-family: $primary-fonts;
+
+    @media (max-width: 768px) {
+        font-size: 19px !important;
+    }
+    
+}
+
+input,
+textarea,
+button {
+    font-family: $secondary-fonts;
+}
+
+a {
+    transition: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1[class*='-title'],
+h2[class*='-title'],
+h3[class*='-title'] {
+    font-weight: bold;
+    font-family: $secondary-fonts;
+}
