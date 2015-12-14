@@ -60,7 +60,7 @@ function generate_posted_on() {
 
     // If comments enabled link to them
 
-    if ( comments_open() ) {
+    if ( comments_open() && is_single() ) {
 
 		echo '<span class="comments-link"><a href="#reply-title">Add a comment</a></span>';
 
