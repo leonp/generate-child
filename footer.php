@@ -108,7 +108,7 @@
 	<footer class="site-info" itemtype="http://schema.org/WPFooter" itemscope="itemscope">
 		<div class="inside-site-info grid-container grid-parent">
 			<?php // do_action( 'generate_credits' ); ?>
-			<p><a href="http://leonpaternoster.com/colophon">Colophon</a> &middot; <a href="http://leonpaternoster.com/about">About</a></p>
+			<p><a href="/">Home</a> &middot; <a href="/colophon">Colophon</a> &middot; <a href="/about">About</a></p>
 		</div>
 	</footer><!-- .site-info -->
 	<?php do_action( 'generate_after_footer_content' ); ?>
